@@ -6,7 +6,10 @@ Used tecnology:
 - MYSQL
 - SMTP(javax.mail)
 - POI
-the program accepts the query with the parameters:
+
+
+
+The program accepts the query with the parameters:
 - Mail to which the data will be sent
 - filter
 - form document (docx xslx)
