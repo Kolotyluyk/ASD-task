@@ -6,48 +6,8 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5d0e79b6-481a-421a-904e-e4905990cb21" name="Default" comment="commit">
-      <change beforePath="$PROJECT_DIR$/.idea/ASD-task.iml" afterPath="$PROJECT_DIR$/.idea/ASD-task.iml" />
+    <list default="true" id="5d0e79b6-481a-421a-904e-e4905990cb21" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/sk/Main.java" afterPath="$PROJECT_DIR$/src/main/java/com/sk/Main.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/sk/Servlet/MainServlet.java" afterPath="$PROJECT_DIR$/src/main/java/com/sk/Servlet/MainServlet.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/sk/dao/POI/POIDocDao.java" afterPath="$PROJECT_DIR$/src/main/java/com/sk/dao/poi/PoiDocDao.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/sk/dao/POI/POIXlsxDao.java" afterPath="$PROJECT_DIR$/src/main/java/com/sk/dao/poi/PoiXlsxDao.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/sk/dao/myBatis/CountryDao.java" afterPath="$PROJECT_DIR$/src/main/java/com/sk/dao/mybatis/CountryDao.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/sk/dao/myBatis/LocationDao.java" afterPath="$PROJECT_DIR$/src/main/java/com/sk/dao/mybatis/LocationDao.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/sk/dao/myBatis/RequestDao.java" afterPath="$PROJECT_DIR$/src/main/java/com/sk/dao/mybatis/RequestDao.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/sk/dao/myBatis/SessionDao.java" afterPath="$PROJECT_DIR$/src/main/java/com/sk/dao/mybatis/SessionDao.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/sk/dao/myBatis/UserDao.java" afterPath="$PROJECT_DIR$/src/main/java/com/sk/dao/mybatis/UserDao.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/sk/dao/myBatis/UserGroupDao.java" afterPath="$PROJECT_DIR$/src/main/java/com/sk/dao/mybatis/UserGroupDao.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/sk/domain/RequestParameter.java" afterPath="$PROJECT_DIR$/src/main/java/com/sk/domain/RequestParameter.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/sk/entity/Country.java" afterPath="$PROJECT_DIR$/src/main/java/com/sk/entity/Country.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/sk/entity/Location.java" afterPath="$PROJECT_DIR$/src/main/java/com/sk/entity/Location.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/sk/entity/Request.java" afterPath="$PROJECT_DIR$/src/main/java/com/sk/entity/Request.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/sk/entity/Session.java" afterPath="$PROJECT_DIR$/src/main/java/com/sk/entity/Session.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/sk/entity/User.java" afterPath="$PROJECT_DIR$/src/main/java/com/sk/entity/User.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/sk/entity/UserGroup.java" afterPath="$PROJECT_DIR$/src/main/java/com/sk/entity/UserGroup.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/sk/service/CountryService.java" afterPath="$PROJECT_DIR$/src/main/java/com/sk/service/CountryService.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/sk/service/LocationService.java" afterPath="$PROJECT_DIR$/src/main/java/com/sk/service/LocationService.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/sk/service/PoiService/POIService.java" afterPath="$PROJECT_DIR$/src/main/java/com/sk/service/poi/PoiService.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/sk/service/PoiService/impl/PoiServiceDocImpl.java" afterPath="$PROJECT_DIR$/src/main/java/com/sk/service/poi/impl/PoiServiceDocImpl.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/sk/service/PoiService/impl/PoiServiceXLsxImpl.java" afterPath="$PROJECT_DIR$/src/main/java/com/sk/service/poi/impl/PoiServiceXlsxImpl.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/sk/service/Report.java" afterPath="$PROJECT_DIR$/src/main/java/com/sk/service/Report.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/sk/service/RequestService.java" afterPath="$PROJECT_DIR$/src/main/java/com/sk/service/RequestService.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/sk/service/SecurityService.java" afterPath="$PROJECT_DIR$/src/main/java/com/sk/service/SecurityService.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/sk/service/SessionService.java" afterPath="$PROJECT_DIR$/src/main/java/com/sk/service/SessionService.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/sk/service/UserGroupService.java" afterPath="$PROJECT_DIR$/src/main/java/com/sk/service/UserGroupService.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/sk/service/UserService.java" afterPath="$PROJECT_DIR$/src/main/java/com/sk/service/UserService.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/sk/service/impl/CountryServiceImpl.java" afterPath="$PROJECT_DIR$/src/main/java/com/sk/service/impl/CountryServiceImpl.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/sk/service/impl/LocationServiceImpl.java" afterPath="$PROJECT_DIR$/src/main/java/com/sk/service/impl/LocationServiceImpl.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/sk/service/impl/ReportImpl.java" afterPath="$PROJECT_DIR$/src/main/java/com/sk/service/impl/ReportImpl.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/sk/service/impl/RequestServiceImpl.java" afterPath="$PROJECT_DIR$/src/main/java/com/sk/service/impl/RequestServiceImpl.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/sk/service/impl/SecurityServiceImpl.java" afterPath="$PROJECT_DIR$/src/main/java/com/sk/service/impl/SecurityServiceImpl.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/sk/service/impl/SessionServiceImpl.java" afterPath="$PROJECT_DIR$/src/main/java/com/sk/service/impl/SessionServiceImpl.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/sk/service/impl/UserGroupServiceImpl.java" afterPath="$PROJECT_DIR$/src/main/java/com/sk/service/impl/UserGroupServiceImpl.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/sk/service/impl/UserServiceImpl.java" afterPath="$PROJECT_DIR$/src/main/java/com/sk/service/impl/UserServiceImpl.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/logback.xml" afterPath="$PROJECT_DIR$/src/main/resources/logback.xml" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/mybatis-config.xml" afterPath="$PROJECT_DIR$/src/main/resources/mybatis-config.xml" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/jm2dev/localidades/UnitTests.java" afterPath="$PROJECT_DIR$/src/test/java/com/jm2dev/localidades/UnitTests.java" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -92,8 +52,8 @@
       <file leaf-file-name="ReportImpl.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/sk/service/impl/ReportImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="522">
-              <caret line="29" column="22" lean-forward="true" selection-start-line="29" selection-start-column="22" selection-end-line="29" selection-end-column="22" />
+            <state relative-caret-position="270">
+              <caret line="15" column="34" lean-forward="true" selection-start-line="15" selection-start-column="34" selection-end-line="15" selection-end-column="34" />
               <folding />
             </state>
           </provider>
@@ -758,8 +718,16 @@
       <workItem from="1523369090245" duration="1511000" />
       <workItem from="1523378308253" duration="9423000" />
       <workItem from="1523444919214" duration="286000" />
-      <workItem from="1523457688221" duration="1132000" />
+      <workItem from="1523457688221" duration="1407000" />
     </task>
+    <task id="LOCAL-00001" summary="Applied code style">
+      <created>1523458834932</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1523458834932</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -768,7 +736,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="81485000" />
+    <option name="totallyTimeSpent" value="81760000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -781,7 +749,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="65" y="-4" width="2495" height="1444" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.30429927" sideWeight="0.50213903" order="7" side_tool="true" content_ui="tabs" />
@@ -795,13 +762,13 @@
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.27582356" sideWeight="0.49893048" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32994923" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.28136882" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.28136882" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.30429927" sideWeight="0.49786097" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3294249" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32927758" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32927758" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20089832" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -849,12 +816,39 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+              <option name="COLUMN_ORDER">
+                <list>
+                  <option value="0" />
+                  <option value="1" />
+                  <option value="2" />
+                  <option value="3" />
+                </list>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="commit" />
+    <MESSAGE value="Applied code style" />
+    <option name="LAST_COMMIT_MESSAGE" value="Applied code style" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1269,8 +1263,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/sk/service/impl/ReportImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="522">
-          <caret line="29" column="22" lean-forward="true" selection-start-line="29" selection-start-column="22" selection-end-line="29" selection-end-column="22" />
+        <state relative-caret-position="270">
+          <caret line="15" column="34" lean-forward="true" selection-start-line="15" selection-start-column="34" selection-end-line="15" selection-end-column="34" />
           <folding />
         </state>
       </provider>
