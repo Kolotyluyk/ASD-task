@@ -15,7 +15,8 @@ public class CountryServiceImpl implements CountryService {
     }
 
     @Override
-    public Country findById() {
-        return null;
+    public Country findById(Integer id) {
+        CountryDao mapper = ReportImpl.session.getMapper(CountryDao.class);
+        return mapper.countryFindById(id);
     }
 }

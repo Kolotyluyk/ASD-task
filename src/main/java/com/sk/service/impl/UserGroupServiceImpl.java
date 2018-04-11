@@ -1,6 +1,7 @@
 package com.sk.service.impl;
 
 
+import com.sk.dao.myBatis.UserDao;
 import com.sk.dao.myBatis.UserGroupDao;
 import com.sk.entity.UserGroup;
 import com.sk.service.UserGroupService;
@@ -15,7 +16,9 @@ public class UserGroupServiceImpl implements UserGroupService {
     }
 
     @Override
-    public UserGroup findById() {
-        return null;
+    public UserGroup findById(Integer id) {
+        UserGroupDao mapper = ReportImpl.session.getMapper(UserGroupDao.class);
+        return mapper.userGroupFindById(id);
+
     }
 }

@@ -15,7 +15,10 @@ public class SessionServiceImpl implements SessionService {
     }
 
     @Override
-    public Session findById() {
-        return null;
+    public Session findById(Integer id) {
+
+        SessionDao mapper = ReportImpl.session.getMapper(SessionDao.class);
+        return mapper.sessionFindById(id);
+
     }
 }

@@ -15,7 +15,9 @@ public class RequestServiceImpl implements RequestService {
     }
 
     @Override
-    public Request findById() {
-        return null;
+    public Request findById(Integer id) {
+        RequestDao mapper = ReportImpl.session.getMapper(RequestDao.class);
+        return mapper.requestFindById(id);
+
     }
 }

@@ -15,7 +15,9 @@ public class LocationServiceImpl implements LocationService {
     }
 
     @Override
-    public Location findById() {
-        return null;
+    public Location findById(Integer id) {
+        LocationDao mapper = ReportImpl.session.getMapper(LocationDao.class);
+        return mapper.locationFindById(id);
+
     }
 }

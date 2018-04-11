@@ -6,5 +6,5 @@ import java.util.List;
 
 public interface UserGroupService {
     List<UserGroup> findAll();
-    UserGroup findById();
+    UserGroup findById(Integer id);
 }

@@ -6,5 +6,5 @@ import java.util.List;
 
 public interface SessionService {
     List<Session> findAll();
-    Session findById();
+    Session findById(Integer id);
 }

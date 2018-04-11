@@ -17,19 +17,31 @@ import java.io.IOException;
 @WebServlet("/ASD")
 public class MainServlet extends HttpServlet {
 
-
-
-
-
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
-        req.getParameter(RequestParameter.EMAIL.getName());
+        String email= null, docFormat = null, filter=null;
+        if(req.getParameter(RequestParameter.EMAIL.getName())==null)
+            email= "example@gmail.com";
+        else
+            email= req.getParameter(RequestParameter.EMAIL.getName());
+
+        if(req.getParameter(RequestParameter.FILTER.getName())==null)
+            filter= "";
+         else
+             filter= req.getParameter(RequestParameter.FILTER.getName());
+
+        if(req.getParameter(RequestParameter.FORMAT.getName())==null)
+            docFormat= "xlsx";
+        else
+            docFormat= req.getParameter(RequestParameter.FORMAT.getName());
+
+
+
         Report report= new ReportImpl();
-        report.createReport(req.getParameter(RequestParameter.EMAIL.getName()),
-                            req.getParameter(RequestParameter.FILTER.getName()),
-                            req.getParameter(RequestParameter.FORMAT.getName()));
-        resp.getWriter().write("");
+        report.createReport(email,filter,docFormat);
+        resp.getWriter().write("We sent report about each users in"+req.getParameter(RequestParameter.EMAIL.getName() ));
     }
+
 
     @Override
     protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {

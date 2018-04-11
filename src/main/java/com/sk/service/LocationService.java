@@ -8,5 +8,5 @@ import java.util.List;
 public interface LocationService {
 
     List<Location> findAll();
-    Location findById();
+    Location findById(Integer id);
 }

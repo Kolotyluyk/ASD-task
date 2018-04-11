@@ -6,6 +6,6 @@ import java.util.List;
 
 public interface CountryService {
     List<Country> findAll();
-    Country findById();
+    Country findById(Integer id);
 
 }
