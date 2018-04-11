@@ -1,65 +1,63 @@
 package com.sk.entity;
 
-import java.util.List;
-
 public class Request {
 
-    Integer id;
-    String url;
-    String method;
-    String params;
-    Session session;
+	private Integer id;
+	private String url;
+	private String method;
+	private String params;
+	private Session session;
 
-    public Request(Integer id, String url, String method, String params, Session session) {
-        this.id = id;
-        this.url = url;
-        this.method = method;
-        this.params = params;
-        this.session = session;
-    }
+	public Request(Integer id, String url, String method, String params, Session session) {
+		this.id = id;
+		this.url = url;
+		this.method = method;
+		this.params = params;
+		this.session = session;
+	}
 
-    public Request() {
+	public Request() {
 
-    }
+	}
 
-    public Integer getId() {
+	public Integer getId() {
 
-        return id;
-    }
+		return id;
+	}
 
-    public void setId(Integer id) {
-        this.id = id;
-    }
+	public void setId(Integer id) {
+		this.id = id;
+	}
 
-    public String getUrl() {
-        return url;
-    }
+	public String getUrl() {
+		return url;
+	}
 
-    public void setUrl(String url) {
-        this.url = url;
-    }
+	public void setUrl(String url) {
+		this.url = url;
+	}
 
-    public String getMethod() {
-        return method;
-    }
+	public String getMethod() {
+		return method;
+	}
 
-    public void setMethod(String method) {
-        this.method = method;
-    }
+	public void setMethod(String method) {
+		this.method = method;
+	}
 
-    public String getParams() {
-        return params;
-    }
+	public String getParams() {
+		return params;
+	}
 
-    public void setParams(String params) {
-        this.params = params;
-    }
+	public void setParams(String params) {
+		this.params = params;
+	}
 
-    public Session getSession() {
-        return session;
-    }
+	public Session getSession() {
+		return session;
+	}
 
-    public void setSession(Session session) {
-        this.session = session;
-    }
+	public void setSession(Session session) {
+		this.session = session;
+	}
 }
