@@ -1,55 +1,52 @@
 package com.sk.entity;
 
-import java.util.Date;
-
 public class Session {
 
-    Integer id;
-    User user;
-    String dateOpened;
-    String dateClosed;
+	private Integer id;
+	private User user;
+	private String dateOpened;
+	private String dateClosed;
 
+	public Integer getId() {
+		return id;
+	}
 
-    public Integer getId() {
-        return id;
-    }
+	public void setId(Integer id) {
+		this.id = id;
+	}
 
-    public void setId(Integer id) {
-        this.id = id;
-    }
+	public User getUser() {
+		return user;
+	}
 
-    public User getUser() {
-        return user;
-    }
+	public void setUser(User user) {
+		this.user = user;
+	}
 
-    public void setUser(User user) {
-        this.user = user;
-    }
+	public String getDateOpened() {
+		return dateOpened;
+	}
 
-    public String getDateOpened() {
-        return dateOpened;
-    }
+	public void setDateOpened(String dateOpened) {
+		this.dateOpened = dateOpened;
+	}
 
-    public void setDateOpened(String dateOpened) {
-        this.dateOpened = dateOpened;
-    }
+	public Session() {
+	}
 
-    public Session() {
-    }
+	public Session(Integer id, User userId, String date_opened, String date_closed) {
 
-    public Session(Integer id, User userId, String date_opened, String date_closed) {
+		this.id = id;
+		this.user = userId;
+		this.dateOpened = date_opened;
+		this.dateClosed = date_closed;
+	}
 
-        this.id = id;
-        this.user = userId;
-        this.dateOpened = date_opened;
-        this.dateClosed = date_closed;
-    }
+	public String getDateClosed() {
+		return dateClosed;
+	}
 
-    public String getDateClosed() {
-        return dateClosed;
-    }
-
-    public void setDateClosed(String dateClosed) {
-        this.dateClosed = dateClosed;
-    }
+	public void setDateClosed(String dateClosed) {
+		this.dateClosed = dateClosed;
+	}
 }

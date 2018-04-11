@@ -8,20 +8,17 @@ import org.apache.shiro.subject.Subject;
 import org.apache.shiro.util.Factory;
 
 public class SecurityServiceImpl implements SecurityService {
-    @Override
-    public Subject findOutRoleOfCurrentUser(String login, String password) {
+	@Override
+	public Subject findOutRoleOfCurrentUser(String login, String password) {
 
-             Factory<SecurityManager> factory =
-                    new IniSecurityManagerFactory("shiro.ini");
+		Factory<SecurityManager> factory = new IniSecurityManagerFactory("shiro.ini");
 
-            org.apache.shiro.mgt.SecurityManager securityManager
-                    = factory.getInstance();
-            SecurityUtils.setSecurityManager(securityManager);
+		org.apache.shiro.mgt.SecurityManager securityManager = factory.getInstance();
+		SecurityUtils.setSecurityManager(securityManager);
 
-            Subject user = SecurityUtils.getSubject();
+		Subject user = SecurityUtils.getSubject();
 
-            return user;
-        }
-
+		return user;
+	}
 
 }
