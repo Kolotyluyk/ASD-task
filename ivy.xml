@@ -1,0 +1,39 @@
+<ivy-module version="2.0">
+    <info organisation="org.apache" module="mybatis-ant"/>
+
+    <configurations>
+      <conf name="test" visibility="public" />
+      <conf name="compile" visibility="public" />
+    </configurations>
+
+    <publications>
+      <artifact name="${project.name}" type="jar"  conf="compile"
+                ext="jar"/>
+      <artifact name="${project.name}-test" type="jar"  conf="test"
+                ext="jar"/>
+    </publications>
+
+    <dependencies>
+    <dependency org="mysql" name="mysql-connector-java" rev="5.1.20"/>
+    <dependency org="org.mybatis" name="mybatis" rev="3.1.1"/>
+    <dependency org="org.testng" name="testng" rev="6.5.2" conf="test->*"/>
+    <dependency org="org.hamcrest" name="hamcrest-all" rev="1.1" conf="test->*"/>
+    <dependency org="org.apache.shiro" name="shiro-web" rev="1.2.2"/>
+    <dependency org="org.apache.shiro" name="shiro-core" rev="1.2.2"/>
+
+    <dependency org="org.apache.poi" name="poi" rev="3.17"/>
+    <dependency org="org.apache.poi" name="poi-ooxml" rev="3.17"/>
+    <dependency org="org.apache.commons" name="commons-collections4" rev="4.0"/>
+        <!-- https://mvnrepository.com/artifact/org.apache.shiro/shiro-core -->
+
+    <!-- https://mvnrepository.com/artifact/javax.servlet/javax.servlet-api >
+        <dependency org="javax.servlet" name="javax.servlet-api" rev="3.0.1"/>
+
+         <dependency org="javax.mail" name="mail" rev="1.4"/>
+        <dependency org="org.apache.geronimo.specs" name="geronimo-activation_1.1_spec" rev="1.1"/-->
+
+
+
+    </dependencies>
+</ivy-module>
+

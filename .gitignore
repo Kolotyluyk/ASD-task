@@ -1,0 +1,9 @@
+target/
+test-output/
+testng-output/
+lib/
+mybatis-ant.log
+out/
+
+
+
